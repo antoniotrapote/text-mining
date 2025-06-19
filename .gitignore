@@ -1,0 +1,60 @@
+# Ignore Python virtual environments
+.venv/
+venv/
+ENV/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment and secret files
+.env
+.env.*
+secrets.*
+*.key
+*.pem
+*.p12
+*.crt
+*.db
+*.sqlite3
+
+# Ignore data files
+# *.csv
+# *.tsv
+# *.xls
+# *.xlsx
+# *.parquet
+# *.h5
+# *.hdf5
+# *.jsonl
+# *.log
+# *.bak
+# *.tmp
+
+# Ignore model files
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.joblib
+*.pkl
+*.sav
+*.npz
+*.npy
+
+# Ignore output folders
+outputs/
+results/
+logs/
