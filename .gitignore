@@ -58,3 +58,7 @@ secrets.*
 outputs/
 results/
 logs/
+
+# Ignore maintenance files
+maintenance/
+
